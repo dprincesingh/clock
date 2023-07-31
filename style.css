@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width:100%;
+}
+#container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin-right: 10px;
+    height: 20vh;
+    width: 20vh;
+    background-color: grey;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sbox{
+    font-size: 14vh;
+    text-align: justify;
+    height: 17vh;
+    width: 17vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
