@@ -5,10 +5,13 @@
 body{
     height: 100%;
     width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(171, 195, 215);
 }
 #container{
     height: 100vh;
-    background-color: black;
+    background-image: url(diana-parkhouse-5RY9GtjPXZM-unsplash.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +20,7 @@ body{
     margin-right: 10px;
     height: 20vh;
     width: 20vh;
-    background-color: grey;
+    /* background-color: grey; */
     
     display: flex;
     align-items: center;
